@@ -458,7 +458,7 @@ a
     }
     .goals-grid .why-we-started 
     {
-        width: 170%;
+        width: 120%;
         margin-left: -12px;
     }
     .active-goals
@@ -468,7 +468,7 @@ a
     }
     .goals-grid .services
     {
-        width: 180%;
+        width: 140%;
     }
     .feedback
     {
@@ -516,7 +516,7 @@ a
         justify-content: center;
         align-items: center;
         margin-left: -7px;
-        padding: 13px 9px;
+        padding: 9px 9px;
         border-radius: 60%;
         width: 130%;
         margin-top: -25px;
