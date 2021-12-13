@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css link -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- text to speech cdn -->
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=3djDFnxr"></script>
+
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <title>I Transaction | About page</title>
+</head>
+<body>
+    <div class="main-container">
+        <nav class="navbar-container">
+            <div class="navbar-items">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#" class="current">About</a></li>
+                    <li><a href="#">Transactions</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="navbar-bars">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <center>
+            <section class="goals">
+                <h1 class="goals-input"></h1>
+                <i class="fas fa-blind"></i>
+                <div class="goals-text" id="goals-speech">
+                    Without even looking into this from the angle of progrmming.
+                    Disableed people in general are in an automatic disadvantage at living in general, but it does not have to be always like that.
+                    What we plan to do in our website is to do our part in helping visually impaired people on having an equal ground whenn it comes to 
+                    financial transactions with their respective banks, because they also need money to survive, but they cannot do that is the website or application
+                    does not consider them.
+                </div>
+                <div class="goals-grid">
+                    <div class="services">
+                        <span class="services-provided">
+                            Services Provided <i class="fas fa-credit-card"></i>
+                            <br> <br>
+                        </span>
+                       We provide text to speech, so as to help the users know what to do when they first enter the website.
+                       We also provide keyboard functionality. Visually impaired people have a special type of keyboard which uses braille, braille allows blind people to feel the pattern of a letter which allows them to type.
+                       This is also a form of written language for blind people. 
+                    </div>
+                    <div>
+    
+                    </div>
+                    <div>
+    
+                    </div>
+                    <div class="why-we-started">
+                        <span class="started">
+                            Why We Started?
+                            <br> <br>
+                        </span>
+                       This website was created due to a project given from another course (System analysis).
+                       So i used this front-end project as a stepping stone for the other project, so this website compliments the other. This just advertises the other website.
+                       And that is the origin of I Transaction.
+                    </div>
+                </div>
+            </section>
+        </center>
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".goals-input", {
+            strings: ["Our Goals"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            
+        })
+    </script>
+    <script src="goals-animation.js"></script>
+    <script src="menu-down-up.js"></script>
+    <script src="about-speech.js"></script>
+    <script src="drop-down.js"></script>
+
+</body>
+</html>

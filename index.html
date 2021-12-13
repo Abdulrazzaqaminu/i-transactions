@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css link -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- text to speech cdn -->
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=3djDFnxr"></script>
+
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>I Transaction</title>
+</head>
+<body>
+    <nav class="navbar-container">
+        <div class="navbar-items">
+            <ul>
+                <li><a href="" class="current">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Transactions</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="navbar-bars">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <center>
+        <div class="introduction">
+            <div id="intro">
+                <h1>I <span class="auto-input"></span></h1>
+                <p>This company is designed to help the visually <br>
+                   impaired to make financial transactions <br> 
+                   with their respective bank
+                </p>
+            </div>
+            <div class="explore">
+                <a href="#explore">Explore</a>
+            </div>
+        </div>
+    </center>
+    <section class="explore-section" id="explore">
+        <span class="explore-some">What we do</span> <br>
+        <div class="explore-some-text">
+            We help the visually impaired users make transactions with their respective banks.
+            We also provide keyboard functionality. Visually impaired people have a special type of keyboard which uses braille, braille allows blind people to feel the pattern of a letter which allows them to type.
+            This is also a form of written language for blind people. 
+        </div>
+        <div class="explore-some-img">
+            <img src="/braille.jpg" alt="">
+        </div>
+    </section>
+
+    <center>
+        <section>
+            <div class="footer">
+                <div class="footer-socials">
+                    Socials
+                    <ul class="footer-socials-info">
+                        <li><i class="fab fa-snapchat"></i> Snapchat</li>
+                        <li><i class="fab fa-twitter"></i> Twitter</li>
+                        <li><i class="fab fa-github"></i> Github</li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    Contact
+                    <ul class="footer-contact-info">
+                        <li>08156259871</li>
+                        <li>0605365309</li>
+                    </ul>
+                </div>
+            </div>
+           <div class="copyright">
+               &copy; 2021 I Transactions, inc.
+           </div>
+        </section>
+    </center>
+ 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["Transaction"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            
+        })
+    </script>
+    <script src="drop-down.js"></script>
+    <script src="menu-down-up.js"></script>
+    <script src="index-speech.js"></script>
+</body>
+</html>
